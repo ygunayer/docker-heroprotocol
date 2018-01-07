@@ -33,7 +33,7 @@ For convenience, the image *optionally* expects two folders to be mounted: `/dat
 ```
 
 ### Versioning
-The original heroprotocol repository rarely receives any commits, and even though the commit messages contain the version number somewhat consistently, it does not use Git branches or tags to mark them with the said versions, so I didn't go into the trouble of synchronizing the image version with heroprotocol's build version. If required, it should be possible to parse the commit messages publish the images accordingly.
+The original heroprotocol repository regularly receives updates on each patch, so to keep up with the changes I decided to use the same version numbers. See the [CHANGELOG](CHANGELOG.md) for each release.
 
 ## License
 MIT
